@@ -1,0 +1,137 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #c4dfdf;
+  max-height: 790px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+  font-family: "Lucida Console", Monaco, monospace;
+  margin: 0;
+}
+
+.navbar {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255, 0.3);
+  padding: 30px;
+  margin-top: 15px;
+  margin-right: 250px;
+  margin-left: 250px;
+  border-radius: 20px;
+  border: 2px solid white;
+}
+
+.navbar a {
+  font-size: 20px;
+  background-color: transparent;
+  padding: 10px 20px;
+  text-decoration: none;
+  border: 2px solid white;
+}
+
+a {
+  background-color: transparent;
+  text-decoration: none;
+  border-radius: 20px;
+  box-shadow: inset 0 0 0 0  whitesmoke;
+  color: white;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+a.one{
+  color: black;
+  border: 2px solid white;
+  border-radius: 20px;
+  scroll-behavior: smooth;
+  background-color: white;
+}
+
+a.two:hover {
+  box-shadow: inset 300px 0 0 0 white;
+  color: black;
+  border: 2px solid white;
+  scroll-behavior: smooth;
+}
+
+a.icon {
+  color: white;
+  border: 2px solid white;
+  font-size: 18px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(255, 255, 255, 0.3);
+  border-radius: 20px;
+  width: 900px;
+  margin: auto;
+  margin-bottom: 40px;
+  border: 2px solid white;
+}
+
+.flex-container div {
+  margin: 10px;
+  font-size: 15px;
+  border-radius: 20px;
+}
+
+.inside {
+  border: 2px solid white;
+  padding: 10px;
+  font-style: italic;
+}
+
+.inside1 {
+  border: 2px solid white;
+  padding: 10px;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+li {
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+table{
+  margin-bottom: 15px;
+}
+
+td{
+  border: 3px solid transparent;
+  text-align: center;
+  padding: 8px;
+  background-color: white;
+}
+
+th{
+  border: 3px solid transparent;
+  text-align: center;
+  padding: 8px;
+  background-color: #2eb0c9;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  grid-area: footer;
+  position: static;
+  width: 100%;
+  height: 80px;
+  display: grid;
+  place-items: center;
+  font-size: 15px;
+}
