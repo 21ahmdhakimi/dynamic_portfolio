@@ -2,8 +2,9 @@
 
 
 <h2>Description</h2>
-Course: Dynamic Web Development 
+Course: Dynamic Web Development, 
 Project consists of a simple portfolio website with multiple page such as profile, education, feedback form and calculator. 
+Project Date: Semester 4 (2022)
 <br />
 
 
